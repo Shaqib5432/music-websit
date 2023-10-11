@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+
+    font-family: 'Ubuntu',sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    align-items: center;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+width: 44px;
+padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+    height: 130px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    flex-direction:column ;
+    margin: 12px 0;
+    bottom: 0;
+}
+.conatiner{
+    min-height: 71vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Ubuntu',sans-serif;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg.jpg);
+flex-direction: column;
+
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 180vh;
+    cursor: pointer;
+    initial-value: 0;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+width: 40%
+;
+    color: black;
+    margin: 12px 4px;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    border-radius: 34px                             ;
+    }
+    
+    
+    .songItem img{
+        width: 43px;
+        margin: 0 23px;
+        border-radius: 34px;
+    }
+
+    .timestamp{
+        padding: 10px;
+        cursor: pointer;
+     
+        margin: 12px 0;
+    }
+    .songItemcontainer{
+        margin-top: 74px;
+    }
+
+    .songInfo{
+        position: absolute;
+        left: 6vw;
+        font-family: 'Ubuntu',sans-serif;   
+    }
+    .songInfo img{
+        width: 106px;
+        height: 50px;
+        opacity: 0;
+        transition: opacity 0.4s ease in;
+    }
